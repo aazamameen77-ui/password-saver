@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Safe zone 66dp centered (x: 21..87, y: 21..87) -->
+    <!-- Shield Outer Glow/Border -->
+    <path
+        android:pathData="M54,23 L79,32 C79,56 68,73 54,83 C40,73 29,56 29,32 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#101F3C" />
+    <!-- Shield Inner Body Gradient -->
+    <path
+        android:pathData="M54,26 L76,34 C76,54 66,69 54,79 C42,69 32,54 32,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="26"
+                android:endX="76"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E3A8A" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Gold Padlock Body -->
+    <path
+        android:pathData="M44,48 L64,48 A3,3 0 0,1 67,51 L67,67 A3,3 0 0,1 64,70 L44,70 A3,3 0 0,1 41,67 L41,51 A3,3 0 0,1 44,48 Z"
+        android:fillColor="#FBBF24" />
+    <!-- Padlock Shackle -->
+    <path
+        android:pathData="M47,48 L47,42 C47,38.1 50.1,35 54,35 C57.9,35 61,38.1 61,42 L61,48"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FDE68A"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Keyhole -->
+    <path
+        android:pathData="M54,55 A2.5,2.5 0 0,0 52.5,58.8 L52,64 L56,64 L55.5,58.8 A2.5,2.5 0 0,0 54,55 Z"
+        android:fillColor="#1E293B" />
+</vector>
